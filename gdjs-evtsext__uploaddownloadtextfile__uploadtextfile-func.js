@@ -9,7 +9,7 @@ gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile = {};
 gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x9d90b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0xc22b88 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["text/plain", "application/json"];
 
@@ -45,7 +45,7 @@ gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.eventsList0 = function(runt
 
 
 const objects = [];
-gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x9d90b0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0xc22b88(runtimeScene, objects, eventsFunctionContext);
 
 }
 

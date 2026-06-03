@@ -1,32 +1,36 @@
 
-if (typeof gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition !== "undefined") {
-  gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource !== "undefined") {
+  gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition = {};
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.idToCallbackMap = new Map();
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource = {};
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.userFunc0x7c19c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0xc22b88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const game = runtimeScene.getGame();
-eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
+runtimeScene
+    .getGame()
+    .getImageManager()
+    .getPIXITexture(eventsFunctionContext.getArgument("Resource"))
+    .baseTexture = PIXI.BaseTexture.from(eventsFunctionContext.getArgument("URL"));
+
 };
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.userFunc0x7c19c8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0xc22b88(runtimeScene, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.func = function(runtimeScene, URL, Resource, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -35,8 +39,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("LoadImageFromURL"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("LoadImageFromURL"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -76,16 +80,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "URL") return URL;
+if (argName === "Resource") return Resource;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.registeredGdjsCallbacks = [];
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.registeredGdjsCallbacks = [];
