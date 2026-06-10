@@ -9,7 +9,7 @@ gdjs.evtsExt__Autenticador2FA__ValidarChave = {};
 gdjs.evtsExt__Autenticador2FA__ValidarChave.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0xd46110 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0x9d2890 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // === MOTOR CRIPTOGRÁFICO LOCAL COMPLETO HMAC-SHA1 (RFC 2104 / RFC 6238) ===
 const TOTP_Offline_Engine = {
@@ -163,7 +163,7 @@ gdjs.evtsExt__Autenticador2FA__ValidarChave.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0xd46110(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0x9d2890(runtimeScene, eventsFunctionContext);
 
 }
 

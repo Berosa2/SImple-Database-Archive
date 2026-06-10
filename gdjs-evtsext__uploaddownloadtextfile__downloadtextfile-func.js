@@ -9,7 +9,7 @@ gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile = {};
 gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xd43010 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xadb7e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function DownloadTextContent(filename, mimeType,content) {
     var link = document.createElement('a')
@@ -32,7 +32,7 @@ gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.eventsList0 = function(ru
 {
 
 
-gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xd43010(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xadb7e0(runtimeScene, eventsFunctionContext);
 
 }
 

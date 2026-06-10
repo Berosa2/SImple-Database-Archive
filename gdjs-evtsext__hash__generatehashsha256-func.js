@@ -9,7 +9,7 @@ gdjs.evtsExt__Hash__GenerateHashSHA256 = {};
 gdjs.evtsExt__Hash__GenerateHashSHA256.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Hash__GenerateHashSHA256.userFunc0xd3c198 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Hash__GenerateHashSHA256.userFunc0x9d0318 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Script from https://geraintluff.github.io/sha256/
 
@@ -120,7 +120,7 @@ gdjs.evtsExt__Hash__GenerateHashSHA256.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__Hash__GenerateHashSHA256.userFunc0xd3c198(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Hash__GenerateHashSHA256.userFunc0x9d0318(runtimeScene, eventsFunctionContext);
 
 }
 

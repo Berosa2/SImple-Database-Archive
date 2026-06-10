@@ -1150,7 +1150,7 @@ for (var i = 0, k = 0, l = gdjs.UserCode.GDBloquear_9595UsuarioObjects1.length;i
 gdjs.UserCode.GDBloquear_9595UsuarioObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12270148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16570124);
 }
 }
 if (isConditionTrue_0) {
