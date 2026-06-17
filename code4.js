@@ -97,6 +97,10 @@ gdjs.Admin_32MenuCode.GDBackground2Objects1= [];
 gdjs.Admin_32MenuCode.GDBackground2Objects2= [];
 gdjs.Admin_32MenuCode.GDBackground2Objects3= [];
 gdjs.Admin_32MenuCode.GDBackground2Objects4= [];
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects1= [];
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects2= [];
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects3= [];
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects4= [];
 
 
 gdjs.Admin_32MenuCode.eventsList0 = function(runtimeScene) {
@@ -110,7 +114,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16752940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16716052);
 }
 }
 if (isConditionTrue_0) {
@@ -180,7 +184,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16759660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16722684);
 }
 }
 if (isConditionTrue_0) {
@@ -1125,6 +1129,10 @@ gdjs.Admin_32MenuCode.GDBackground2Objects1.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects2.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects3.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects4.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects3.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects4.length = 0;
 
 gdjs.Admin_32MenuCode.eventsList9(runtimeScene);
 gdjs.Admin_32MenuCode.GDTitleObjects1.length = 0;
@@ -1223,6 +1231,10 @@ gdjs.Admin_32MenuCode.GDBackground2Objects1.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects2.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects3.length = 0;
 gdjs.Admin_32MenuCode.GDBackground2Objects4.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects3.length = 0;
+gdjs.Admin_32MenuCode.GDBackground_9595black_9595darkObjects4.length = 0;
 
 
 return;

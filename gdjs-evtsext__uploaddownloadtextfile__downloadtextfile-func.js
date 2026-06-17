@@ -9,7 +9,7 @@ gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile = {};
 gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xadb7e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xb39ed0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function DownloadTextContent(filename, mimeType,content) {
     var link = document.createElement('a')
@@ -32,7 +32,7 @@ gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.eventsList0 = function(ru
 {
 
 
-gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xadb7e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__UploadDownloadTextFile__DownloadTextFile.userFunc0xb39ed0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -68,7 +68,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

@@ -10,7 +10,7 @@ gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.idToCallbackMap = new Map();
 gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.userFunc0xadae80 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.userFunc0xce0260 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (eventsFunctionContext.getArgument("ChangeResource")) {
     const texture = PIXI.BaseTexture.from(eventsFunctionContext.getArgument("URL"));
@@ -28,7 +28,7 @@ gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.eventsList0 = function(runtime
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.GDObjectObjects1;
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.userFunc0xadae80(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoSprite.userFunc0xce0260(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -66,7 +66,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

@@ -116,6 +116,11 @@ gdjs.UserCode.GDBackground2Objects2= [];
 gdjs.UserCode.GDBackground2Objects3= [];
 gdjs.UserCode.GDBackground2Objects4= [];
 gdjs.UserCode.GDBackground2Objects5= [];
+gdjs.UserCode.GDBackground_9595black_9595darkObjects1= [];
+gdjs.UserCode.GDBackground_9595black_9595darkObjects2= [];
+gdjs.UserCode.GDBackground_9595black_9595darkObjects3= [];
+gdjs.UserCode.GDBackground_9595black_9595darkObjects4= [];
+gdjs.UserCode.GDBackground_9595black_9595darkObjects5= [];
 
 
 gdjs.UserCode.mapOfGDgdjs_9546UserCode_9546GDServiceObjects3Objects = Hashtable.newFrom({"Service": gdjs.UserCode.GDServiceObjects3});
@@ -1150,7 +1155,7 @@ for (var i = 0, k = 0, l = gdjs.UserCode.GDBloquear_9595UsuarioObjects1.length;i
 gdjs.UserCode.GDBloquear_9595UsuarioObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16570124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16444396);
 }
 }
 if (isConditionTrue_0) {
@@ -1427,6 +1432,11 @@ gdjs.UserCode.GDBackground2Objects2.length = 0;
 gdjs.UserCode.GDBackground2Objects3.length = 0;
 gdjs.UserCode.GDBackground2Objects4.length = 0;
 gdjs.UserCode.GDBackground2Objects5.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects3.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects4.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects5.length = 0;
 
 gdjs.UserCode.eventsList11(runtimeScene);
 gdjs.UserCode.GDBackObjects1.length = 0;
@@ -1544,6 +1554,11 @@ gdjs.UserCode.GDBackground2Objects2.length = 0;
 gdjs.UserCode.GDBackground2Objects3.length = 0;
 gdjs.UserCode.GDBackground2Objects4.length = 0;
 gdjs.UserCode.GDBackground2Objects5.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects3.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects4.length = 0;
+gdjs.UserCode.GDBackground_9595black_9595darkObjects5.length = 0;
 
 
 return;

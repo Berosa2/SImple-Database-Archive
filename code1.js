@@ -58,6 +58,9 @@ gdjs.SchemaCode.GDBackground_9595whiteObjects3= [];
 gdjs.SchemaCode.GDBackground2Objects1= [];
 gdjs.SchemaCode.GDBackground2Objects2= [];
 gdjs.SchemaCode.GDBackground2Objects3= [];
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects1= [];
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects2= [];
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects3= [];
 
 
 gdjs.SchemaCode.mapOfGDgdjs_9546SchemaCode_9546GDtextObjects2Objects = Hashtable.newFrom({"text": gdjs.SchemaCode.GDtextObjects2});
@@ -254,7 +257,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.SchemaCode.asyncCallback16465996 = function (runtimeScene, asyncObjectsList) {
+};gdjs.SchemaCode.asyncCallback16334660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SchemaCode.localVariables);
 {gdjs.evtTools.variable.variablePushCopy(runtimeScene.getScene().getVariables().getFromIndex(8), runtimeScene.getScene().getVariables().getFromIndex(7));
 }
@@ -264,7 +267,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.SchemaCode.localVariables)
 }
 gdjs.SchemaCode.localVariables.length = 0;
 }
-gdjs.SchemaCode.idToCallbackMap.set(16465996, gdjs.SchemaCode.asyncCallback16465996);
+gdjs.SchemaCode.idToCallbackMap.set(16334660, gdjs.SchemaCode.asyncCallback16334660);
 gdjs.SchemaCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -274,7 +277,7 @@ gdjs.SchemaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SchemaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.SchemaCode.asyncCallback16465996(runtimeScene, asyncObjectsList)), 16465996, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.SchemaCode.asyncCallback16334660(runtimeScene, asyncObjectsList)), 16334660, asyncObjectsList);
 }
 }
 
@@ -836,7 +839,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("Mark", ((gdjs.SchemaCode.GDStarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.SchemaCode.GDStarObjects1[0].getVariables()).getFromIndex(0).getAsString() + "-S");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16458796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16327924);
 }
 }
 if (isConditionTrue_0) {
@@ -859,7 +862,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("Mark", ((gdjs.SchemaCode.GDStarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.SchemaCode.GDStarObjects1[0].getVariables()).getFromIndex(0).getAsString() + "-S"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16459876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16328860);
 }
 }
 if (isConditionTrue_0) {
@@ -1020,6 +1023,9 @@ gdjs.SchemaCode.GDBackground_9595whiteObjects3.length = 0;
 gdjs.SchemaCode.GDBackground2Objects1.length = 0;
 gdjs.SchemaCode.GDBackground2Objects2.length = 0;
 gdjs.SchemaCode.GDBackground2Objects3.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects3.length = 0;
 
 gdjs.SchemaCode.eventsList5(runtimeScene);
 gdjs.SchemaCode.GDSchema_9595IconObjects1.length = 0;
@@ -1079,6 +1085,9 @@ gdjs.SchemaCode.GDBackground_9595whiteObjects3.length = 0;
 gdjs.SchemaCode.GDBackground2Objects1.length = 0;
 gdjs.SchemaCode.GDBackground2Objects2.length = 0;
 gdjs.SchemaCode.GDBackground2Objects3.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects1.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects2.length = 0;
+gdjs.SchemaCode.GDBackground_9595black_9595darkObjects3.length = 0;
 
 
 return;

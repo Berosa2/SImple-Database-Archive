@@ -9,7 +9,7 @@ gdjs.evtsExt__Autenticador2FA__ValidarChave = {};
 gdjs.evtsExt__Autenticador2FA__ValidarChave.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0x9d2890 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0xa9bf18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // === MOTOR CRIPTOGRÁFICO LOCAL COMPLETO HMAC-SHA1 (RFC 2104 / RFC 6238) ===
 const TOTP_Offline_Engine = {
@@ -163,7 +163,7 @@ gdjs.evtsExt__Autenticador2FA__ValidarChave.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0x9d2890(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Autenticador2FA__ValidarChave.userFunc0xa9bf18(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -199,7 +199,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

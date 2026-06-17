@@ -9,7 +9,7 @@ gdjs.evtsExt__Hash__GenerateHashMD5 = {};
 gdjs.evtsExt__Hash__GenerateHashMD5.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Hash__GenerateHashMD5.userFunc0x9d0318 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Hash__GenerateHashMD5.userFunc0xb39ab0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var MD5 = function (string) {
 
@@ -221,7 +221,7 @@ gdjs.evtsExt__Hash__GenerateHashMD5.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__Hash__GenerateHashMD5.userFunc0x9d0318(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Hash__GenerateHashMD5.userFunc0xb39ab0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -257,7 +257,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

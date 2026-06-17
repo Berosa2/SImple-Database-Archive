@@ -1,32 +1,47 @@
 
-if (typeof gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition !== "undefined") {
-  gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Gene64__gene64 !== "undefined") {
+  gdjs.evtsExt__Gene64__gene64.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition = {};
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.idToCallbackMap = new Map();
+gdjs.evtsExt__Gene64__gene64 = {};
+gdjs.evtsExt__Gene64__gene64.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.userFunc0xd21a80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gene64__gene64.userFunc0xdb35e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const game = runtimeScene.getGame();
-eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
+const path = eventsFunctionContext.getArgument("Path");
+
+try {
+    const fs = require("fs");
+
+    const fileBuffer = fs.readFileSync(path);
+
+    const base64 =
+        "data:image/png;base64," +
+        fileBuffer.toString("base64");
+
+    eventsFunctionContext.returnValue = base64;
+
+} catch(err) {
+    console.error(err);
+    eventsFunctionContext.returnValue = "";
+}
 };
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gene64__gene64.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.userFunc0xd21a80(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gene64__gene64.userFunc0xdb35e0(runtimeScene, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__Gene64__gene64.func = function(runtimeScene, Path, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -35,8 +50,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gene64"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gene64"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -78,16 +93,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "Path") return Path;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gene64__gene64.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__SpriteToggleSwitch__IsInGameEdition.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Gene64__gene64.registeredGdjsCallbacks = [];
