@@ -30,13 +30,13 @@ gdjs._50FACode.GDBackground_9595black_9595darkObjects2= [];
 gdjs._50FACode.GDBackground_9595black_9595darkObjects3= [];
 
 
-gdjs._50FACode.asyncCallback16840924 = function (runtimeScene, asyncObjectsList) {
+gdjs._50FACode.asyncCallback18823484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs._50FACode.localVariables);
 {gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 gdjs._50FACode.localVariables.length = 0;
 }
-gdjs._50FACode.idToCallbackMap.set(16840924, gdjs._50FACode.asyncCallback16840924);
+gdjs._50FACode.idToCallbackMap.set(18823484, gdjs._50FACode.asyncCallback18823484);
 gdjs._50FACode.eventsList0 = function(runtimeScene) {
 
 {
@@ -46,7 +46,7 @@ gdjs._50FACode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs._50FACode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.loadStringFromFileAsyncTask(runtimeScene.getScene().getVariables().getFromIndex(0), "C:\\AJShub\\configuration.json", gdjs.VariablesContainer.badVariable, true), (runtimeScene) => (gdjs._50FACode.asyncCallback16840924(runtimeScene, asyncObjectsList)), 16840924, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.loadStringFromFileAsyncTask(runtimeScene.getScene().getVariables().getFromIndex(0), "C:\\AJShub\\configuration.json", gdjs.VariablesContainer.badVariable, true), (runtimeScene) => (gdjs._50FACode.asyncCallback18823484(runtimeScene, asyncObjectsList)), 18823484, asyncObjectsList);
 }
 }
 
@@ -189,7 +189,7 @@ for (var i = 0, k = 0, l = gdjs._50FACode.GDIDObjects1.length;i<l;++i) {
 gdjs._50FACode.GDIDObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16844556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18827460);
 }
 }
 if (isConditionTrue_0) {
@@ -228,7 +228,7 @@ for (var i = 0, k = 0, l = gdjs._50FACode.GDIDObjects1.length;i<l;++i) {
 gdjs._50FACode.GDIDObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16846212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18829196);
 }
 }
 if (isConditionTrue_0) {

@@ -9,7 +9,7 @@ gdjs.evtsExt__Autenticador2FA__CriarChaves = {};
 gdjs.evtsExt__Autenticador2FA__CriarChaves.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Autenticador2FA__CriarChaves.userFunc0xaf99b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Autenticador2FA__CriarChaves.userFunc0xa2d2c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!window.jsOTP_Oficial) {
     // Injeta a biblioteca criptográfica padrão de mercado direto na memória do jogo
@@ -49,7 +49,7 @@ gdjs.evtsExt__Autenticador2FA__CriarChaves.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Autenticador2FA__CriarChaves.userFunc0xaf99b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Autenticador2FA__CriarChaves.userFunc0xa2d2c8(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -257,7 +257,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.SchemaCode.asyncCallback16334660 = function (runtimeScene, asyncObjectsList) {
+};gdjs.SchemaCode.asyncCallback18236100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SchemaCode.localVariables);
 {gdjs.evtTools.variable.variablePushCopy(runtimeScene.getScene().getVariables().getFromIndex(8), runtimeScene.getScene().getVariables().getFromIndex(7));
 }
@@ -267,7 +267,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.SchemaCode.localVariables)
 }
 gdjs.SchemaCode.localVariables.length = 0;
 }
-gdjs.SchemaCode.idToCallbackMap.set(16334660, gdjs.SchemaCode.asyncCallback16334660);
+gdjs.SchemaCode.idToCallbackMap.set(18236100, gdjs.SchemaCode.asyncCallback18236100);
 gdjs.SchemaCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -277,7 +277,7 @@ gdjs.SchemaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SchemaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.SchemaCode.asyncCallback16334660(runtimeScene, asyncObjectsList)), 16334660, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.SchemaCode.asyncCallback18236100(runtimeScene, asyncObjectsList)), 18236100, asyncObjectsList);
 }
 }
 
@@ -839,7 +839,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("Mark", ((gdjs.SchemaCode.GDStarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.SchemaCode.GDStarObjects1[0].getVariables()).getFromIndex(0).getAsString() + "-S");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16327924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18228668);
 }
 }
 if (isConditionTrue_0) {
@@ -862,7 +862,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("Mark", ((gdjs.SchemaCode.GDStarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.SchemaCode.GDStarObjects1[0].getVariables()).getFromIndex(0).getAsString() + "-S"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16328860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18229604);
 }
 }
 if (isConditionTrue_0) {

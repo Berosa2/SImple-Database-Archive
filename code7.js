@@ -692,14 +692,14 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.ConfigurationCode.asyncCallback16935276 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ConfigurationCode.asyncCallback18914836 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
 
 { //Subevents
 gdjs.ConfigurationCode.eventsList9(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.ConfigurationCode.localVariables.length = 0;
 }
-gdjs.ConfigurationCode.idToCallbackMap.set(16935276, gdjs.ConfigurationCode.asyncCallback16935276);
+gdjs.ConfigurationCode.idToCallbackMap.set(18914836, gdjs.ConfigurationCode.asyncCallback18914836);
 gdjs.ConfigurationCode.eventsList10 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -710,21 +710,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.deleteFileAsyncTask("C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Delete")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback16935276(runtimeScene, asyncObjectsList)), 16935276, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.deleteFileAsyncTask("C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Delete")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback18914836(runtimeScene, asyncObjectsList)), 18914836, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.ConfigurationCode.asyncCallback16935068 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ConfigurationCode.asyncCallback18914628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
 
 { //Subevents
 gdjs.ConfigurationCode.eventsList10(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.ConfigurationCode.localVariables.length = 0;
 }
-gdjs.ConfigurationCode.idToCallbackMap.set(16935068, gdjs.ConfigurationCode.asyncCallback16935068);
+gdjs.ConfigurationCode.idToCallbackMap.set(18914628, gdjs.ConfigurationCode.asyncCallback18914628);
 gdjs.ConfigurationCode.eventsList11 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -735,21 +735,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.loadStringFromFileAsyncTask(gdjs.VariablesContainer.badVariable, "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Read"), true), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback16935068(runtimeScene, asyncObjectsList)), 16935068, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.loadStringFromFileAsyncTask(gdjs.VariablesContainer.badVariable, "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Read"), true), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback18914628(runtimeScene, asyncObjectsList)), 18914628, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.ConfigurationCode.asyncCallback16934116 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ConfigurationCode.asyncCallback18913676 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
 
 { //Subevents
 gdjs.ConfigurationCode.eventsList11(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.ConfigurationCode.localVariables.length = 0;
 }
-gdjs.ConfigurationCode.idToCallbackMap.set(16934116, gdjs.ConfigurationCode.asyncCallback16934116);
+gdjs.ConfigurationCode.idToCallbackMap.set(18913676, gdjs.ConfigurationCode.asyncCallback18913676);
 gdjs.ConfigurationCode.eventsList12 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -760,21 +760,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.saveStringToFileAsyncTask("test file!" + "\nupdate!", "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Update")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback16934116(runtimeScene, asyncObjectsList)), 16934116, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.saveStringToFileAsyncTask("test file!" + "\nupdate!", "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Update")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback18913676(runtimeScene, asyncObjectsList)), 18913676, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.ConfigurationCode.asyncCallback16933012 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ConfigurationCode.asyncCallback18912572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
 
 { //Subevents
 gdjs.ConfigurationCode.eventsList12(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.ConfigurationCode.localVariables.length = 0;
 }
-gdjs.ConfigurationCode.idToCallbackMap.set(16933012, gdjs.ConfigurationCode.asyncCallback16933012);
+gdjs.ConfigurationCode.idToCallbackMap.set(18912572, gdjs.ConfigurationCode.asyncCallback18912572);
 gdjs.ConfigurationCode.eventsList13 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -785,21 +785,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.saveStringToFileAsyncTask("test file!", "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Create")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback16933012(runtimeScene, asyncObjectsList)), 16933012, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.saveStringToFileAsyncTask("test file!", "C:\\AJShub\\test.txt", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("Create")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback18912572(runtimeScene, asyncObjectsList)), 18912572, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.ConfigurationCode.asyncCallback16931876 = function (runtimeScene, asyncObjectsList) {
+};gdjs.ConfigurationCode.asyncCallback18911436 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
 
 { //Subevents
 gdjs.ConfigurationCode.eventsList13(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.ConfigurationCode.localVariables.length = 0;
 }
-gdjs.ConfigurationCode.idToCallbackMap.set(16931876, gdjs.ConfigurationCode.asyncCallback16931876);
+gdjs.ConfigurationCode.idToCallbackMap.set(18911436, gdjs.ConfigurationCode.asyncCallback18911436);
 gdjs.ConfigurationCode.eventsList14 = function(runtimeScene) {
 
 {
@@ -809,7 +809,7 @@ gdjs.ConfigurationCode.eventsList14 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ConfigurationCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.readdirAsync("C:\\AJShub", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("List")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback16931876(runtimeScene, asyncObjectsList)), 16931876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.fileSystem.readdirAsync("C:\\AJShub", runtimeScene.getScene().getVariables().getFromIndex(8).getChild("File").getChild("List")), (runtimeScene) => (gdjs.ConfigurationCode.asyncCallback18911436(runtimeScene, asyncObjectsList)), 18911436, asyncObjectsList);
 }
 }
 

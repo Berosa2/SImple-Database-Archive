@@ -9,7 +9,7 @@ gdjs.evtsExt__Gene64__gene64 = {};
 gdjs.evtsExt__Gene64__gene64.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gene64__gene64.userFunc0xdb35e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gene64__gene64.userFunc0xa4c4f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const path = eventsFunctionContext.getArgument("Path");
 
@@ -34,7 +34,7 @@ gdjs.evtsExt__Gene64__gene64.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Gene64__gene64.userFunc0xdb35e0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gene64__gene64.userFunc0xa4c4f8(runtimeScene, eventsFunctionContext);
 
 }
 
